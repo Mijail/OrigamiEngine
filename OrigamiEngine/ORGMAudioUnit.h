@@ -26,9 +26,9 @@
 #import <AudioToolbox/AudioToolbox.h>
 
 // default reading chunk size
-#define CHUNK_SIZE 16 * 1024
+#define CHUNK_SIZE 16 * 1024 / 2
 // deault buffer size
-#define BUFFER_SIZE 256 * 1024
+#define BUFFER_SIZE 256 * 1024 / 2
 
 /**
  Specifies format of the PCM output
